@@ -6,7 +6,7 @@ add_border("welcome to the atm")
 
 while True:
   try:
-    user_id = str(input("Please enter your ID:/n>>/t"))
+    user_id = str(input("Please enter your ID: "))
   
   except TypeError:
     add_border("incorrect id", "Please enter your ID again.")
